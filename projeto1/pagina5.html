@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h3>Quais veículos você possui?</h3>
+
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vec1" value="0">
+        <label for="vehicle1"> Eu tenho uma bicicleta</label>
+        <br>
+        <input type="checkbox" id="vehicle2" name="vec2" value="1">
+        <label for="vehicle1"> Eu tenho um Carro</label>
+        <br>
+        <input type="checkbox" id="vehicle3" name="vec3" value="2">
+        <label for="vehicle1"> Eu tenho um barco</label>
+        <br>
+
+    <br><br>
+
+        <label for="curso">Faculdade que você pode fazer:</label>
+        <!-- <select id="curso" name="curso" multiple> (multiplas escolhas) -->
+            <select id="curso" name="curso">
+            <option value="psicologia">Psicologia</option>
+            <option value="letras">Letras Inglês</option>
+            <option value="Ciências da Computação">Ciências da Computação</option>
+    </select>
+
+    <br><br>
+
+    <h4>TextArea</h4>
+
+    <textarea name="texto" rows="10" cols="40" id="texto" placeholder="Escreva de olhos fechados"></textarea>
+    
+    <br><br>
+
+
+
+    </form>
+
+    <br>
+
+    <a href="index.html"> Voltando a página principal... </a> 
+</body>
+</html>

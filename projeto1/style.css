@@ -1,0 +1,43 @@
+/*a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    text-transform: uppercase;
+    color: pink;
+    font-weight: bold;
+    background-color: beige;
+}
+    */
+header{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+}
+*{
+    background-color: bisque;
+}
+p{
+    color: rgb(4, 4, 36);
+}
+
+h4{
+    color: red;
+}
+h2{
+    color: blueviolet;
+}
+
+#aviso{
+    text-align: center;
+    text-transform: uppercase;
+
+}
