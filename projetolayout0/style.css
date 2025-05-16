@@ -1,0 +1,74 @@
+* {
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+}
+
+header {
+    border: 3px solid pink;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 30px;
+
+}
+
+nav {
+    border: 3px solid pink;
+    height: 30px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+main {
+    border: 3px solid pink;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+    /* overflow: auto; */
+    /* padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 15px; */
+    padding: 10px 30px 15px 20px; 
+    /* padding : 50px; */
+    
+}
+
+footer {
+    border: 3px solid pink;
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    font-size: 80%;
+    height: 20px;
+}
+
+#container{
+    border: 3px solid pink;
+    background-color: lightcyan;
+    width: 600px;
+    text-align: justify;
+    /* overflow: hidden; */
+
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 3px solid pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 250%;
+    text-align: center;
+}
+
+#b1{
+    float: left;
+}
+
+#b2{
+    float: left;
+}
